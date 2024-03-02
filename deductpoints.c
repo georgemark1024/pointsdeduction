@@ -10,7 +10,7 @@ void deductpoints()
     char buffer[100], *first, *last, *char_offence, *name_concat_in_file, name[50], buffer2[10], *char_points;
 
     printf("Enter name of student\n");
-    scanf("%[^\n]", name);
+    scanf(" %[^\n]", name);
     adm = check_student(name);
     if (adm == 0)
     {
