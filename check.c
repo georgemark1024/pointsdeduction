@@ -29,7 +29,7 @@ int check_student(char *name)
 
     if(fgets(buffer, 100, fstudents) == NULL)
     {
-        printf("Student not found! Please check again");
+        printf("Student not found! Please check again\n");
         return(0);
     }
 

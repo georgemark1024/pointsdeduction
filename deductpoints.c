@@ -14,7 +14,6 @@ void deductpoints()
     adm = check_student(name);
     if (adm == 0)
     {
-        printf("Student not found!\n");
         return;
     }
     printf("Enter offence number ");
